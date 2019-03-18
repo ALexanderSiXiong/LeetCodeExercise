@@ -2,6 +2,8 @@ package leetCode;
 
 public class JumpGame {
     public static boolean canJump(int[] nums) {
+        // it needs an extra conunter tracking the maxJump
+        
         int times = 0;
         int maxIndex = nums.length - 1;
         int maxJump = nums[0];
